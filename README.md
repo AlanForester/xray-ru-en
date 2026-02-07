@@ -70,7 +70,7 @@ pip3 install flask
 
 ```bash
 # Скачайте xray-panel.py
-wget https://raw.githubusercontent.com/YOUR_USERNAME/xray-panel/main/xray-panel.py -O /root/xray-panel.py
+wget https://raw.githubusercontent.com/AlanForester/xray-ru-en/main/xray-panel.py -O /root/xray-panel.py
 chmod +x /root/xray-panel.py
 ```
 
@@ -309,7 +309,7 @@ MIT License - см. LICENSE файл
 
 - [Xray-core](https://github.com/XTLS/Xray-core)
 - [Flask](https://flask.palletsprojects.com/)
-- [Статья на Habr](https://habr.com/ru/articles/...) - пошаговое руководство по настройке
+- [📖 Статья на Habr](https://habr.com/ru/articles/993958/) - пошаговое руководство по настройке прозрачного прокси для домашней сети
 
 ## Поддержка
 
