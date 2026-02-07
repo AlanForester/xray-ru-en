@@ -1,0 +1,24 @@
+[Unit]
+Description=Веб-панель мониторинга Xray
+After=network.target xray.service
+Wants=xray.service
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/root
+ExecStart=/usr/bin/python3 /root/xray-panel.py
+Restart=always
+RestartSec=3
+
+# Security
+NoNewPrivileges=false
+PrivateTmp=true
+
+# Logging
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=xray-panel
+
+[Install]
+WantedBy=multi-user.target
