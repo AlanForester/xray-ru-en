@@ -309,7 +309,6 @@ MIT License - см. LICENSE файл
 
 - [Xray-core](https://github.com/XTLS/Xray-core)
 - [Flask](https://flask.palletsprojects.com/)
-- [📖 Статья на Habr](https://habr.com/ru/articles/993958/) - пошаговое руководство по настройке прозрачного прокси для домашней сети
 
 ## Поддержка
 
